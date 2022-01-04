@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test 5 components Article Card Tests 1. Check loading 1. Match Snapshot 1`] = `ReactWrapper {}`;
+
+exports[`Test 5 components Article Card Tests 2. Check loading 1. Match Snapshot 1`] = `ReactWrapper {}`;
+
+exports[`Test 5 components Article Card Tests 3. Check error 1. Match Snapshot 1`] = `ReactWrapper {}`;
+
+exports[`Test 5 components Article Card Tests 4. Check when filter and title are specified 1. Match Snapshot 1`] = `ReactWrapper {}`;
+
+exports[`Test 5 components Article Tests 1. Test Article with no filter or specified title 1. Match snapshot with the given articles 1`] = `ReactWrapper {}`;
+
+exports[`Test 5 components Article Tests 2. Test Articles  with specified filter and title and do not match 1. Match snapshot with the given articles 1`] = `ReactWrapper {}`;
+
+exports[`Test 5 components Article Tests 3. Test Articles  with specified filter and title and matches 1. Match snapshot with the given articles 1`] = `ReactWrapper {}`;
+
+exports[`Test 5 components Article Tests 4. Test Articles with specified filter and title, only filter matches 1. Match snapshot with the given articles 1`] = `ReactWrapper {}`;
+
+exports[`Test 5 components DisplayArticle Tests 1. Check loading 1. Match snapshot 1`] = `ReactWrapper {}`;
+
+exports[`Test 5 components DisplayArticle Tests 2. Check error 1. Match snapshot 1`] = `ReactWrapper {}`;
+
+exports[`Test 5 components DisplayArticle Tests 2. Test Displayed title and content of the Article  1. Match snapshot 1`] = `ReactWrapper {}`;

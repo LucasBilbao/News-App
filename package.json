@@ -1,0 +1,35 @@
+{
+  "name": "lucasbilbao-jsfege",
+  "version": "1.0.0",
+  "description": "Private repository for @lucasbilbao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/lucasbilbao-JSFEGE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged npm run test",
+      "pre-push": "npm run test"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,css,jsx,md,html}": [
+      "prettier --single-quote --write"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/lucasbilbao-JSFEGE/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/lucasbilbao-JSFEGE#readme",
+  "devDependencies": {
+    "husky": "^7.0.4"
+  }
+}
