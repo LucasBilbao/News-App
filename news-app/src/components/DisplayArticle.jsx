@@ -39,7 +39,7 @@ function DisplayArticle({ articles, loading, error }) {
   }
   return (
     <div>
-      <Link to="/lucasbilbao-JSFEGE/" className="back">
+      <Link to="/News-App/" className="back">
         <button>Back</button>
       </Link>
       <div className="wrapper">

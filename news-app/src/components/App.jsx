@@ -19,7 +19,7 @@ function App() {
     <div>
       <Routes>
         <Route
-          path="/lucasbilbao-JSFEGE/"
+          path="/News-App/"
           exact
           element={
             <HomePage
@@ -30,7 +30,7 @@ function App() {
           }
         ></Route>
         <Route
-          path="/lucasbilbao-JSFEGE/article/:id"
+          path="/News-App/article/:id"
           element={
             <DisplayArticle
               articles={articles}

@@ -66,7 +66,7 @@ function Article({ articles }) {
               <div className="content">
                 <h1 data-test="article-title">{article.title}</h1>
                 <p data-test="article-description">{article.description}</p>
-                <Link to={`/lucasbilbao-JSFEGE/article/${article.title}`}>Read More</Link>
+                <Link to={`/News-App/article/${article.title}`}>Read More</Link>
               </div>
             </article>
           );
